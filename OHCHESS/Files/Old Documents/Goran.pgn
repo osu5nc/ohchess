@@ -1,0 +1,62 @@
+[Event "2016 Columbus Open"]
+[Site "The Ohio State University"]
+[Date "2016.06.19"]
+[Round "4"]
+[White "Sherwas, Pratik"]
+[Black "Vojinovic, Goran"]
+[Result "0-1"]
+[ECO "E12"]
+[Annotator "Komodo 10 64-bit (30s)"]
+[PlyCount "166"]
+[EventDate "2016.??.??"]
+[WhiteClock "0:00:27"]
+[BlackClock "0:02:07"]
+
+{E12: Queen's Indian: Unusual White 4th moves, 4 a3, 4 Nc3 Bb7 5 a3 and 4 Nc3
+Bb7} 1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Ba6 5. Qc2 Bb7 6. Bg5 c5 7. dxc5 bxc5
+8. e3 Be7 9. Be2 O-O 10. Nc3 d6 11. O-O Nbd7 12. Rfd1 a6 {last book move} 13.
+h3 {Consolidates g4} Qb6 14. Rab1 (14. b4 h6 15. Bf4 Rfc8 $11) 14... Rab8 (
+14... a5 15. Bf4 $11) 15. b4 cxb4 {Black forks: a3+c3} (15... Qc6 16. Bf4 $14)
+16. axb4 {White has new hanging pawns: b4+c4. Black has a new backward pawn: a6
+} Qc7 17. Nd2 Rfe8 (17... Rfd8 18. e4 $14) 18. Bf4 $14 Rec8 (18... Red8 19. Qa2
+$16) 19. Bg3 (19. Qa2 e5 20. Bg3 Nb6 $14) 19... Ra8 (19... a5 20. bxa5 Qxa5 21.
+Nb3 $11) 20. Bf1 e5 {Black has a new backward pawn: d6} 21. Qd3 (21. Nb3 Rab8
+$14) 21... a5 $11 22. Nb5 {White threatens to win material: Nb5xc7} (22. bxa5
+Nc5 23. Qc2 Rxa5 $11) 22... Qb8 23. c5 {White gains space} (23. bxa5 Rxa5 24.
+f3 Ra2 $11) 23... d5 24. Nd6 (24. bxa5 $5 Bxc5 25. Rdc1 $11) 24... Bxd6 $15 25.
+cxd6 a4 {White has a new passed pawn: b4. Black has a new passed pawn: a4} 26.
+Qf5 (26. f4 Nh5 27. Bh2 exf4 28. exf4 Qxd6 $15) 26... Re8 (26... g6 $142 $5 27.
+Qd3 Qxd6 $17) 27. Bb5 $11 Qxd6 28. Nc4 {e5 becomes the focus of attention} Qe6
+(28... Qb8 $142 $5 {must be considered} 29. Na5 d4 30. Nxb7 Qxb7 31. Bxd7 Nxd7
+32. exd4 g6 $11) 29. Qxe6 $16 Rxe6 30. Na5 {White threatens to win material:
+Na5xb7} Rb6 (30... Rb8 31. Bxa4 Nb6 32. Bc2 $16) 31. Bxa4 $16 Rb8 (31... Ra7 $5
+$16) 32. f4 $18 Ne4 33. Be1 Rd6 34. Bc2 Nef6 35. Bg3 Re6 36. b5 g6 37. Kh2 (37.
+fxe5 $5 Nxe5 38. Rb4 Re7 $18) 37... Ba8 (37... Nh5 38. Nxb7 Nxg3 39. Rxd5 Rxb7
+40. Kxg3 exf4+ 41. exf4 $16) 38. fxe5 Nxe5 (38... Nh5 $142 $5 39. Nc6 $1 {
+White gets the upper hand} Rxb5 40. Rxb5 Bxc6 $16) 39. b6 $1 $18 {Deflection:
+e5} Bb7 (39... Rbxb6 40. Rxb6 Rxb6 41. Bxe5 {Overloading Deflection}) (39...
+Rexb6 40. Bxe5 {Deflection}) 40. Ba4 Ne4 41. Nxb7 Rxb7 42. Rxd5 $4 {with this
+move White loses his initiative.} (42. Bxe5 $142 {White missed this excellent
+chance} Rxe5 43. Bc6 $18) 42... Nxg3 $11 43. Kxg3 Nc4 {Black threatens to win
+material: Nc4xe3. Black forks: e3+b6} 44. Rc5 (44. Kf2 Rbxb6 45. Rxb6 Nxb6 46.
+Rd8+ Kg7 $11) 44... Rbxb6 $15 45. Rxb6 Nxb6 46. Bc6 Rxe3+ 47. Kf4 Re7 48. Rb5
+Nc4 49. Bd5 {White threatens to win material: Bd5xc4} Nd6 {Black threatens to
+win material: Nd6xb5} 50. Rb6 {White threatens to win material: Rb6xd6} Ne8 51.
+g4 Kg7 (51... g5+ 52. Kg3 $15) 52. g5 h5 53. Rc6 Ra7 54. Ke5 Kf8 (54... Nc7 55.
+Bc4 $15) 55. Rb6 Re7+ 56. Kf4 Nc7 {Black threatens to win material: Nc7xd5} 57.
+Bc4 Rd7 (57... Ne8 58. Bb5 $15) 58. Rc6 (58. Ke5 Re7+ 59. Kf4 Ne8 $15) 58...
+Ke7 59. Ke5 Ne8 60. Bd5 Kf8 61. Rb6 Re7+ 62. Kf4 Nc7 63. Bc4 {Twofold
+repetition} Re1 (63... Kg7 64. Rc6 $15) 64. Rb7 {White threatens to win
+material: Rb7xc7} (64. Rf6 Ne6+ 65. Bxe6 Rxe6 66. Rxe6 fxe6 $11) 64... Re7 (
+64... Ne6+ 65. Bxe6 Rxe6 66. Ra7 $15) 65. Rb6 {Draw by threefold repetition}
+Kg7 66. Rc6 Ne8 67. Bd5 f6 68. gxf6+ Nxf6 69. Bf3 Ra7 70. h4 {Black has a new
+backward pawn: g6} Ng8 (70... Ra4+ 71. Kg3 $15) 71. Be4 {White threatens to
+win material: Be4xg6} Nf6 72. Bf3 {Twofold repetition} Ra4+ 73. Ke5 $2 (73. Kg3
+$142 $15 {and White has air to breath}) 73... Ng4+ $19 74. Ke6 Rf4 75. Rc7+ Kh6
+76. Bd1 (76. Rc3 Nh2 77. Bd1 Rxh4 $19) 76... Ne3 77. Be2 Re4+ 78. Kf7 Nd5 79.
+Rc8 (79. Rc2 Rxh4 80. Bb5 $19) 79... Re7+ 80. Kg8 Rxe2 81. Rd8 (81. Kf7 {
+otherwise it's curtains at once} Re7+ 82. Kf8 $19) 81... Re8+ $1 {Decoy: e8}
+82. Rxe8 Nf6+ 83. Kf7 Nxe8 (83... Nxe8 84. Ke6 g5 85. Ke5 gxh4 86. Kf4 Nf6 87.
+Kf3 Kg5 88. Kf2 Ne4+ 89. Ke2 h3 90. Kf1 Kf4 91. Kg1 Kf3 92. Kh2 Nf2 93. Kg1 Kg3
+94. Kf1 h2 95. Ke2 h1=Q 96. Kd2 Qc6 97. Ke3 Qc3+ 98. Ke2 Qc2+ 99. Ke1 Qd1#) 0-1
+
