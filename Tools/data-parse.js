@@ -51,6 +51,16 @@ Papa.parse(`Ranking,Name,Rating
 50,"HART,BRAEDEN",2051`, {
 	complete: function(results) {
         console.log("Finished:", results.data);
-        
+        let html = `<table cellspacing="0" cellpadding="0">
+		<col width="66">
+		<col width="173">
+		<col width="66">`;
+		for(let i=0; i< results.data.length; i++){
+			html += `\n\t<tr>\n\t\t<td width="66">${results.data[i][0]}</td>`
+			html += `\n\t\t<td width="173">${results.data[i][1]}</td>`
+			html += `\n\t\t<td width="66">${results.data[i][2]}</td>\n\t</tr>`
+		}
+		html += `\n</table>`;
+		console.log(html);
 	}
 });
