@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="styles/bootstrap.css">
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link rel="import" href="shared/bottom-content.html">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -3047,33 +3048,7 @@ white-space:nowrap;
   </div>
 </section>
 <hr>
-<div class="section well">
-    <div class="container">
-   	  <div class="row">
-		<div class="col-lg-4 col-md-4">
-            <h3 class="text-center">WHO WE ARE</h3>
-            <h5>The purpose of our association is to foster the study and pursuit of the game of chess by conducting tournaments for players, sponsoring teams to represent the state of Ohio in interstate and international play, promote chess organizations in the state of Ohio, and the overall general promotion of chess.</h5>
-		</div>
-		<div class="col-lg-4 col-md-4">
-		  <h3 class="text-center">GET IN TOUCH</h3>
-		  <address class="text-center">
-          <strong>Ohio Chess Association</strong><br>
-          <a href="mailto:OhioChessAssociation@gmail.com">OhioChessAssociation@gmail.com</a>
-		  </address>
-		</div>
-		<div class="col-lg-4 col-md-4">
-		  <h3 class="text-center">NEWSLETTER</h3>
-          <form class="subscribeform" name= "Subscription Form" method="post" action="mailto:ohchess1@gmail.com" enctype="text/plain">
-    <div class="form-group col-lg-9 col-md-8 col-sm-10 col-xs-10">
-<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-    </div>
-<button type="submit" class="btn btn-default">Subscribe<br>
-</button>
-</form>
-		</div>
-</div>
-    </div>
-	</div>
+  <div id="bottom-content"></div>
     <footer class="text-center">
   <div class="container">
     <div class="row">
@@ -3087,5 +3062,10 @@ white-space:nowrap;
 <script src="Java/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="Java/bootstrap.js"></script>
+<script>
+    $(document).ready(function() {
+    $('#bottom-content').load('./bottom-content.html');
+});
+</script>
 </body>
 </html>
