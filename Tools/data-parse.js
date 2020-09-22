@@ -59,32 +59,58 @@ const parseOcaMembers = (data) => {
 	console.log(html);
 };
 
-Papa.parse(`Ranking,Name,Rating,Grade
-1,"Cheng, Emma",1897,8
-2,"Mohanselvan, Adeti",1779,9
-3,"Prabu, Sneha",1721,10
-4,"Ma, Samantha",1657,12
-5,"Massick, Laine",1645,9
-6,"Harper, Alicia",1598,8
-7,"Tan, Patricia",1548,5
-8,"Babu, Arya",1464,7
-9,"Bagley, Hemma Svasti",1361,10
-10,"Paruchuri, Deepthisri",1225,7
-11,"Hoff-Miyazaki, Zenya",1198,12
-12,"Sharma, Arushi",1145,11
-13,"Rodgers, Greta",1133,10
-14,"Hodges, Alaiah",1121,10
-15,"Vollmar, Josi",1115,10
-16,"Seethiraju, Srikari",1070,6
-17,"Ganga, Harshita",1055,6
-18,"Chu, Kaylee",1042,6
-19,"Banks, Savannah",1000,9
-20,"Kolli, Manoghna",997,6
-21,"Lui, Jennifer",979,10
-22,"Bagley, Saadhika",976,4
-23,"Talla, Saumya",947,8
-24,"Gattikoppula, Bhuvandeer",912,9
-25,"Somakandan, Aizvereah",881,7`, {
+Papa.parse(`Ranking,Name,Rating,Grade,
+1,"Shen, Christopher",2424,11,
+2,"Wang, Jason",2422,9,
+3,"Baker, Vincent",2328,12,
+4,"Cao, Elton Yutong",2306,11,
+5,"Liu, Aristo",2254,12,
+6,"Storn, Justin",2229,12,
+7,"Keuchel, Destynn",2176,11,
+8,"Tan, Ralph",2157,11,
+9,"Balyan, Aryan",2123,11,
+10,"Sampath, Aja",2122,10,
+11,"Padhye, Rohan",2100,7,
+12,"Tan, Sean",2050,8,
+13,"Adury, Anant",2021,8,
+14,"He, Levon",2020,8,
+15,"Orellana, Juan",2002,10,
+16,"Zhou, James",1980,12,
+17,"Cheng, Emma",1925,9,
+18,"George, Adith",1918,11,
+19,"Prasad, Arvind Sai",1916,12,
+20,"Huang, Evan",1910,11,
+21,"Song, Hansen",1905,11,
+22,"Sathyajeeth, Varun",1900,9,
+23,"Kim, Dae San",1875,8,
+24,"Wojnar, Nicholas",1864,10,
+25,"Lin, Michael",1858,9,
+26,"Mohanselvan, Adeti",1856,10,
+27,"Wang, Matt",1856,8,
+28,"Wang, Kevin",1851,9,
+29,"Chen, Vincent",1838,12,
+30,"Bauml, Brody",1831,6,
+31,"Prabu, Sneha",1796,11,
+32,"Murthy, Shamith",1795,7,
+33,"Liu, Edison",1794,7,
+34,"Dinesh, Abinav Sundar",1784,6,
+35,"Chen, Ethan",1778,7,
+36,"Kallam, Karthik",1773,10,
+37,"Yang, Cody",1768,11,
+38,"Seper, Colin",1762,12,
+39,"Ferkins, Ethan",1749,11,
+40,"Subramanian, Vijay",1748,12,
+41,"Subramanian, Ajay",1746,12,
+42,"Pisini, Dakshin",1737,11,
+43,"Soni, Arjun",1723,4,
+44,"Tripathi, Amogh",1714,7,
+45,"Adury, Abhay Kumar",1682,12,
+46,"Xi, Jason",1646,8,
+47,"Cao, Kenneth",1615,10,
+48,"Rowell, Bayethe",1603,12,
+49,"Tan, Patricia",1597,6,
+50,"Mutalam, Druvin",1596,7,
+`, {
 	complete: function(results) {
 		console.log("Finished:", results.data);
 		// parseTop50(results.data);
