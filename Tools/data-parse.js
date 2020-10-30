@@ -60,15 +60,7 @@ const parseOcaMembers = (data) => {
 };
 
 Papa.parse(`Ranking,Name,Rating,Grade,
-1,"Shen, Christopher",2424,11,
-2,"Wang, Jason",2422,9,
-3,"Baker, Vincent",2328,12,
-4,"Cao, Elton Yutong",2306,11,
-5,"Liu, Aristo",2254,12,
-6,"Storn, Justin",2229,12,
-7,"Keuchel, Destynn",2176,11,
 8,"Tan, Ralph",2157,11,
-9,"Balyan, Aryan",2123,11,
 10,"Sampath, Aja",2122,10,
 11,"Padhye, Rohan",2100,7,
 12,"Tan, Sean",2050,8,
